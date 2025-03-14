@@ -6,7 +6,7 @@ This Is My first poc it was kinda hard and i struggled a lot to write this
 at first at i tried to write a reflective dll injection poc but since i kept running into issues with no reliable way to debug em i had to first make sure i got the basics right and since manual mapping is very similar to reflective dll injection i decided to write a poc for it but actually inject a stub into the target process to simulate reflective dll injection and it worked !!! 
 
 
-##How Does It Work
+## How Does It Work
 
 The Normal dll injection happens by first writing the dll path into the target process then calling createremotethread with loadlibraryA and the dll path as an argument, this method is so basic and gets flagged easily by any av or edr since it uses a high level winapi function (loadlibraryA), In Order to avoid detection we load the dll but without using loadlibraryA . 
 
@@ -29,7 +29,7 @@ So in order to load the dll we have to do everything loadlibraryA does manually 
 
 this was a very educative experience that iv really learned a lot from i got this idea from a forgotten project here on github but i can't really find the page to include it 
 
-##whats next 
+## whats next 
 
 now that we managed to write a poc for manual mapping dll injection i have a solid start where i can now try to actually prefom a reflective dll injection but for now il focus on writing other pocs.
 #important notes
