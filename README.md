@@ -40,4 +40,4 @@ now that we managed to write a poc for manual mapping dll injection i have a sol
   
 - there is one problem i still didn't manage to fix which is the stub size here i used a dirty trick where i create a function right after the function i wanna get its size then i substract them from each other to get the size, this method is very unrelaiable and doesn't always work + the stub size is always negative which causes an overflow since its an unsigned int which makes writeprocessmemory write a lot more than it has to, i tried to fix it but whenever i do the injector stops working il try to fix this in the future.
 
-#HAPPY HACKING
+# HAPPY HACKING
