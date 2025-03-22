@@ -11,7 +11,7 @@ at first at i tried to write a reflective dll injection poc but since i kept run
 The Normal dll injection happens by first writing the dll path into the target process then calling createremotethread with loadlibraryA and the dll path as an argument, this method is so basic and gets flagged easily by any av or edr since it uses a high level winapi function (loadlibraryA), In Order to avoid detection we load the dll but without using loadlibraryA . 
 
 So in order to load the dll we have to do everything loadlibraryA does manually .
- ###What do we have to do
+ ### What do we have to do
 
  - First we read the dll into our process's memory so we can parse its headers
    
