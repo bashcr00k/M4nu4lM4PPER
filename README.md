@@ -1,7 +1,7 @@
 # M4nu4lM4PPER
 Manual Mapping Dll Injection POC
 
-This Is My first poc it was kinda hard and i struggled a lot to write this
+This Is My first poc it was kinda hard 
 
 at first at i tried to write a reflective dll injection poc but since i kept running into issues with no reliable way to debug em i had to first make sure i got the basics right and since manual mapping is very similar to reflective dll injection i decided to write a poc for it but actually inject a stub into the target process to simulate reflective dll injection and it worked !!! 
 
