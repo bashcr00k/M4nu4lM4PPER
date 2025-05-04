@@ -46,3 +46,6 @@ now that we managed to write a poc for manual mapping dll injection i have a sol
 <img width="1280" alt="manualmappingpoc" src="https://github.com/user-attachments/assets/6dcf1777-9763-4dbb-bc61-30b868b92991" />
 
 # HAPPY HACKING
+
+
+# FOR EDUCATIONAL PURPOSES ONLY
